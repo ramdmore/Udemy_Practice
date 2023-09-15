@@ -1,0 +1,77 @@
+/* WE can also give a common property values by combining selectors */
+
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 20px;
+}
+
+/* I am commenting this because of we are using class and ID selectors */
+/* Descendends Selectors */
+/* footer p {
+  font-size: 16px;
+} */
+
+/* Nested Descendends Selectors */
+/* article header p {
+  font-style: italic;
+} */
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+  text-align: center;
+}
+/* The difference between ID and class is that We can use id at only once but for multiple times we are using class 
+For ID we are using "#" and for class we are using "." 
+*/
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* We can remove the bullet points */
+/* ul {
+  list-style: none;
+} */
+
+.related {
+  list-style: none;
+}
